@@ -387,7 +387,7 @@ body{
     background-color: #EAC251;
 }
 .weibo_a .weibo_icon{
-    background: url('../images/icon/weibo.png');
+    background: url('../images/icon/bilibili.ico');
     border-radius: 25px;
     display: block;
     width: 50px;
@@ -404,15 +404,16 @@ body{
 }
 
 .blog_a .blog_icon{
-    background: url('../images/icon/blog.png');
+    background: url('../images/icon/VNDB.ico');
+    border-radius: 25px;
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     position: relative;
     background-size: cover;
     -moz-background-size: cover;
     left: 5px;
-    top: -5px;
+    top: 5px;
 }
 
 .box01_content h1,.box01_content h2,.box01_content p{
@@ -916,7 +917,7 @@ body{
 
 .twitter_items a{
     background-color:rgba(25, 25, 115,0.8);
-    background: url(../images/icon/twitter.png);
+    background: url(../images/icon/2dfan.ico);
 }
 
 .facebook_items{
@@ -925,7 +926,7 @@ body{
 
 .facebook_items a{
     background-color:rgba(59,89,152,0.8);
-    background: url(../images/icon/facebook.png);
+    background: url(../images/icon/GPTreboot.jpg);
 }
 
 .weibo_items{
@@ -934,7 +935,7 @@ body{
 
 .weibo_items a{
     background-color:rgba(189,64,64,0.8);
-    background: url(../images/icon/weibo.png);
+    background: url(../favicon.ico);
 }
 
 .zhihu_items{
@@ -943,7 +944,7 @@ body{
 
 .zhihu_items a{
     background-color:rgba(6,100,195,0.8);
-    background: url(../images/icon/zhihu.png);
+    background: url(../images/icon/NekoNyan.png);
 }
 
 
@@ -953,7 +954,7 @@ body{
 
 .blog_items a{
     background-color:rgba(153,0,102,0.8);
-    background: url(../favicon.ico);
+    background: url(../images/icon/VNDB.ico);
 }
 
 
@@ -963,7 +964,7 @@ body{
 
 .email_items a{
     background-color:rgba(51,153,102,0.8);
-    background: url(../images/icon/email.png);
+    background: url(../images/icon/hf-logo.png);
 }
 
 .foot_title{
@@ -1004,52 +1005,7 @@ body{
     transition: all 0.5s;
 }
 
-.weixin{
-    margin-right: 30px;
-}
 
-.dingding{
-    margin-right: 30px;
-}
-
-.weixin_icon{
-    width: 45px;
-    height: 45px;
-    background: url(../images/icon/weixin.png);
-    background-repeat: no-repeat;
-    background-size: 45px;
-    display: block;
-}
-
-.dingding_icon{
-    width: 45px;
-    height: 45px;
-    background: url(../images/icon/dingding.png);
-    background-repeat: no-repeat;
-    background-size: 45px;
-    display: block;
-}
-
-.qq_icon{
-    width: 45px;
-    height: 45px;
-    background: url(../images/icon/qq.png);
-    background-repeat: no-repeat;
-    background-size: 45px;
-    display: block;
-}
-
-.weixin_icon:hover + .weixin_img{
-    display: block;
-}
-
-.dingding_icon:hover + .dingding_img{
-   display: block;
-}
-
-.qq_icon:hover + .qq_img{
-    display: block;
-}
 
 .foot_power{
     text-align: center;
@@ -1413,28 +1369,7 @@ body{
        left: -3.5rem;
     }
     
-    .weixin_icon{
-        width: 2rem;
-        height: 2rem;
-        background-size: 2rem;
-    }
 
-    .dingding_icon{
-        width: 2rem;
-        height: 2rem;
-        background-size: 2rem;
-    }
-    
-    .qq_icon{
-        width: 2rem;
-        height: 2rem;
-        background-size: 2rem;
-    }
-    
-    .weixin,.dingding{
-        margin-right: 0.5rem;
-    }
-    
     .foot_info_main{
         padding-bottom: 1rem;
     }
