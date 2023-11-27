@@ -23,6 +23,39 @@
         //设定rem值
         document.getElementsByTagName("html")[0].style.fontSize = document.documentElement.clientWidth/20 + 'px';
     </script>
+    <style>
+        .dropbtn {
+    background-color: #9daf4c86;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+        .dropdown {
+          position: relative;
+          display: inline-block;
+          margin: 20px;
+        }
+        .dropdown a:link,.dropdown a:visited {color: black;}
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f957;
+          min-width: 210px;
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.753);
+          padding: 12px 16px;
+          font-size: 20px;
+          font-weight: bold;
+        }
+        .dropdown-content p:hover {background-color: rgba(157, 0, 255, 0.226)}
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+        .dropdown:hover .dropbtn {
+    background-color: #3e8e41a6;
+}
+        </style>
 </head>
 <body>
 	<header class="head">
@@ -39,6 +72,7 @@
                     <li class="nav_ul_li">常用网站</li>
                 </ul>
             </nav>
+            
         </div>
         <div class="clear"></div>
     </header>
@@ -101,13 +135,13 @@
             
             <div class="box02_content box_content">
                 <div id='bar_container' class="bar_container">
-                    <div class='bar mint' data-percent='100' data-skill='金辉恋曲四重奏'></div>
-                    <div class='bar red' data-percent='100' data-skill='纸上魔法使'></div>
-                    <div class='bar lila' data-percent='90' data-skill='樱之诗'></div>
-                    <div class='bar orange' data-percent='90' data-skill='Summer Pockets'></div>
-                    <div class='bar gray' data-percent='80' data-skill='9-nine-'></div>
-                    <div class="bar blue" data-percent='80' data-skill='常轨脱离creative'></div>
-                    <div class="bar green" data-percent='70' data-skill='少女*领域'></div>
+                    <div class='bar mint' data-percent='100' data-skill='番剧爱好者'></div>
+                    <div class='bar red' data-percent='100' data-skill='Galgame爱好者'></div>
+                    <div class='bar lila' data-percent='90' data-skill='编程爱好者'></div>
+                    <div class='bar orange' data-percent='90' data-skill='白河豚跑步爱好者'></div>
+                    <div class='bar gray' data-percent='80' data-skill='单机游戏爱好者'></div>
+                    <div class="bar blue" data-percent='80' data-skill='数字创作爱好者'></div>
+                    <div class="bar green" data-percent='70' data-skill='跑步爱好者'></div>
                 </div>
                 <div id="box02_text">
                     <h1>About Me</h1>
@@ -136,44 +170,40 @@
         
         <div class="box">
             <img class="box_bg" src="images/Noa1.png">
-            
+            <h1>个人瞎几把评的GAL</h1>
             <div class="box_content box03_content">
-                <ul id="timeUl" class="timeUl">
-                    <li>
-                        <div>
-                            <h1>Fantasy动漫社调校组组员</h1>
-                            <p>Au Vocaloid学习中</p>
-                            <p>V家真是太难了(抓狂)</p>
-                            <p>什么时候翻调一首能听的歌再说吧<p>
-                            <p>欢迎加入F社喵欢迎加入F社喵</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <h1>其实本来想加入MAD组的</h1>
-                            <p>面试没进，气气</p>
-                            <p>但是pr和ae还是比较简单的</p>
-                            <p>86MAD制作中</p>
-                           <p>前途多艰</p>
-                        </div>
-                    </li>
-                    <li>
-                       <div>
-                            <h1>学习各种代码中</h1>
-                            <p>但是好难好杂</p>
-                            <p>唉</p>
-                            
-                            <p>前途多艰</p>
-                        </div>
-                    </li>
-                    <li>
-                       <div>
-                            <h1>Future</h1>
-                            
-                            <p>...</p>
-                        </div>
-                    </li>
-                </ul>
+                <h1 style="font-size: 30px; position: absolute; color: aqua;">个人瞎几把评的GAL</h1>
+                <div class="dropdown" style="float: left;">
+                    <button class="dropbtn">10分甚至9分的好</button>
+                    <div class="dropdown-content">
+                      <p><a href="https://vndb.org/v562">サクラノ詩－櫻の森の上を舞う－</a></p><hr>
+                      <p><a href="https://vndb.org/v21852">金色ラブリッチェ</a></p><hr>
+                      <p><a href="https://vndb.org/v15871">紙の上の魔法使い</a></p><hr>
+                      <p><a href="https://vndb.org/v20424">Summer Pockets</a></p><hr>
+                      <p><a href="https://vndb.org/v7679">スーパーダンガンロンパ2 さよなら絶望学園</a></p><hr>
+                    </div>
+                  </div>
+                  <div class="dropdown" style="float: left;">
+                    <button class="dropbtn">真正的9分</button>
+                    <div class="dropdown-content">
+                      <p><a href="https://vndb.org/v7302">はつゆきさくら</a></p><hr>
+                      <p><a href="https://vndb.org/v26523">9-nine-</a></p><hr>
+                      <p><a href="https://vndb.org/v27449">ハミダシクリエイティブ</a></p><hr>
+                      <p><a href="https://vndb.org/v26902">マルコと銀河竜</a></p><hr>
+                      <p><a href="https://vndb.org/v18149">オトメ*ドメイン</a></p><hr>
+                      <p><a href="https://vndb.org/v97">沙耶の唄</a></p><hr>
+                    </div>
+                  </div>
+                  <div class="dropdown" style="float: left;">
+                    <button class="dropbtn">八分也很厉害了</button>
+                    <div class="dropdown-content">
+                      <p><a href="https://vndb.org/v27448">ATRI -My Dear Moments-</a></p><hr>
+                      <p><a href="https://vndb.org/v18148">ノラと皇女と野良猫ハート</a></p><hr>
+                      <p><a href="https://vndb.org/v16044">サノバウィッチ</a></p><hr>
+                      <p><a href="https://vndb.org/v19073">千恋*万花</a></p><hr>
+                      <p><a href="https://vndb.org/v10680">月に寄りそう乙女の作法</a></p><hr>
+                    </div>
+                  </div>
                  <div class="left_div" id="left_div">
                      <img class="left_arrow" src="images/icon/arrowleft.png">
                  </div>
@@ -227,12 +257,12 @@
                             </div>
                             <div class="hobby_img_info">
                                 <h1>ACG</h1>
-                                <h2>动漫&视频&lol</h2>
+                                <h2>动漫&漫画</h2>
                             </div>
                         </div>
                         <div class="hobby_text_div">
                             <div class="hobby_img_info_mob">
-                                <h1>ACG/<a>动漫&视频&lol</a></h1>
+                                <h1>ACG/<a>动漫&漫画</a></h1>
                             </div>
                             <p class="about_p">
                                 入宅作《我要成为双马尾》
